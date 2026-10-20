@@ -445,9 +445,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 325120770297891056, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325120770297891056, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325120770297891056, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325120770297891056, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 573789062547579280, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
       propertyPath: m_Name
       value: PTF2D - AAE
+      objectReference: {fileID: 0}
+    - target: {fileID: 595461607193498734, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_Name
+      value: "Mu\xF1ecajos"
       objectReference: {fileID: 0}
     - target: {fileID: 793903000312680782, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
       propertyPath: m_Pivot.x
@@ -565,6 +585,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 517125354}
+    - target: {fileID: 3507376702398459239, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507376702398459239, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.78632927
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507376702398459239, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3915331788175192410, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 150.00003
@@ -636,6 +668,10 @@ PrefabInstance:
     - target: {fileID: 4983959236753529268, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
       propertyPath: m_Name
       value: Main Menu Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137236494593745605, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7729367562931081872, guid: b7a3960f406dfa2438c199f3c21816b7, type: 3}
       propertyPath: m_Color.b
