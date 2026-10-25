@@ -13549,6 +13549,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1776192439405916707, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776192439405916707, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 0}
@@ -13559,7 +13563,7 @@ PrefabInstance:
     - target: {fileID: 6177880708110585604, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
       propertyPath: _deathSound
       value: 
-      objectReference: {fileID: 8300000, guid: 9a1eeca409f16414d96a8696ae4b8f2f, type: 3}
+      objectReference: {fileID: 8300000, guid: 62d9818a955421d4abd773405caa8e73, type: 3}
     - target: {fileID: 6177880708110585604, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
       propertyPath: _jumpHeight
       value: 5
@@ -13567,7 +13571,7 @@ PrefabInstance:
     - target: {fileID: 6177880708110585604, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
       propertyPath: _damageSound
       value: 
-      objectReference: {fileID: 8300000, guid: 6442877305ebd424dabb1dc56e16b93f, type: 3}
+      objectReference: {fileID: 8300000, guid: 3c6d4ca785f710a4a8df605bc5200622, type: 3}
     - target: {fileID: 6177880708110585604, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
       propertyPath: _attackDamage
       value: 50
