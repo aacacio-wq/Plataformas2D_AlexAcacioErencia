@@ -3204,7 +3204,7 @@ Transform:
   m_GameObject: {fileID: 1254796350}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: -1.55, z: 0}
+  m_LocalPosition: {x: -1.2148063, y: -1.7408527, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13569,6 +13569,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6177880708110585604, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
+      propertyPath: _attackSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1166ee21155439a40862dec457a73b1d, type: 3}
+    - target: {fileID: 6177880708110585604, guid: 565ca2c91a6601049be29f7536bc5062, type: 3}
       propertyPath: _damageSound
       value: 
       objectReference: {fileID: 8300000, guid: 3c6d4ca785f710a4a8df605bc5200622, type: 3}
@@ -13818,6 +13822,14 @@ PrefabInstance:
     - target: {fileID: 1194356248597598005, guid: 6463600cf46edb64a83bb84e767f7b00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3311770417161253167, guid: 6463600cf46edb64a83bb84e767f7b00, type: 3}
+      propertyPath: _soundtrack
+      value: 
+      objectReference: {fileID: 8300000, guid: 949297ef09d4b364b9996878f4130a10, type: 3}
+    - target: {fileID: 6139629310447772128, guid: 6463600cf46edb64a83bb84e767f7b00, type: 3}
+      propertyPath: m_Pitch
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7019432233874042442, guid: 6463600cf46edb64a83bb84e767f7b00, type: 3}
       propertyPath: m_Name
