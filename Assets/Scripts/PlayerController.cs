@@ -11,21 +11,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _jumpHeight = 10;  
     [SerializeField] private int _attackDamage = 10;
 
-//Components
     private Rigidbody2D _rigidBody2D;
     private Animator _animator;
     private AudioSource _playerAudioSource;
     private Collider2D _collider2D;
     private SpriteRenderer _spriteRenderer;
 
-//Inputs
     private InputAction _moveAction;
     private InputAction _jumpAction;
     private InputAction _attackAction;
     private Vector2 _moveInput;
     private InputAction _pauseAction;
 
-//Colliders and Sensors
     [SerializeField] private Transform _groundSensor;
     [SerializeField] private Transform _attackHitBox;
     [SerializeField] private float _hitBoxRadius = 1f;
@@ -58,7 +55,6 @@ public class PlayerController : MonoBehaviour
         _actualHealth = _maxHealth;
         GameManager.Instance._playerHealth = _actualHealth;
     }
-    // Update is called once per frame
     void Update()
     {        
         if (_pauseAction.WasPressedThisFrame())
@@ -66,7 +62,6 @@ public class PlayerController : MonoBehaviour
             GameManager.Instance.Pause();
         }
 
-        //Si se cumple la condición, return corta la función (dentro de update) anulando todos los inputs, a excepción del de pausa
         if(GameManager.Instance.IsPaused())
         {
             return; 
@@ -198,11 +193,9 @@ public class PlayerController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        //GroundSensor Gizmo
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(_groundSensor.position, _sensorSize);
 
-        //AttackHitbox Gizmo
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(_attackHitBox.position, _hitBoxRadius);
     }

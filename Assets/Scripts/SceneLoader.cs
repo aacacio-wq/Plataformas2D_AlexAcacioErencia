@@ -36,15 +36,12 @@ public class SceneLoader : MonoBehaviour
         _loadingCanvas.SetActive(true);
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
-        asyncLoad.allowSceneActivation = false; //bloqueamos el canvio de escena
+        asyncLoad.allowSceneActivation = false; 
 
         float fakeLoadPercentage = 0 ;
 
         while(!asyncLoad.isDone)
         {
-            //Metodo real para comprovar la carga del juego y actualizar la barra segun el valor de la carga
-           // _loadingBar.fillAmount = asyncLoad.progress;
-
            fakeLoadPercentage += 0.01f; 
            Mathf.Clamp01(fakeLoadPercentage);
 

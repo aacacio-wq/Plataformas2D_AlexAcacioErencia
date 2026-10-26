@@ -2,15 +2,12 @@ using UnityEngine;
 
 public class Heart : MonoBehaviour
 {   
-    //Components
     private AudioSource _hearthAudioSource;
     private CircleCollider2D _circleCollider2D;
     private SpriteRenderer _spriteRenderer;
 
-    //Variables values
     [SerializeField] private float _heal;
     [SerializeField] private AudioClip _healSound;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _hearthAudioSource = GetComponent <AudioSource>();
